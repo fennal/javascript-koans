@@ -22,13 +22,13 @@ describe("About Expects", function() {
     expect(actualValue).toEqual(expectedValue);
   });
 
-  // Sometimes you need to be really exact about what you "type."
+  //Sometimes you need to be really exact about what you "type".
   it("should assert equality with ===", function () {
-    var expectedValue = "2";
-    var actualValue = (1 + 1).toString();
+	  var expectedValue = "2";
+	  var actualValue = (1 + 1).toString();
 
   // toBe() will always use === to compare.
-    expect(actualValue).toBe(expectedValue);
+	  expect(actualValue).toBe(expectedValue);
   });
 
   // Sometimes we will ask you to fill in the values.
